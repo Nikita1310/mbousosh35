@@ -1,0 +1,180 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0; 
+    padding-left: 0; 
+   }
+
+.nav {
+    max-width: 1190px;
+    margin: 1em auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-item {
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.hr-nav {
+    margin: 0;
+}
+
+.bxs-graduation {
+    font-size: 35px;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+}
+
+.hover-nav:hover {
+    color: rgba(34, 34, 34, 0.75);
+}
+
+/* school */
+
+.school {
+    max-width: 1190px;
+    margin: 2em auto;
+}
+
+.school h1 {
+    font-size: 2.5em;
+}
+
+.school h2 {
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* slider */
+
+.slider {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.slider-item h1 {
+    padding: 35px;
+    font-size: 20px;
+    width: 390px;
+    color: white;
+}
+
+.slider-item h2 {
+    font-size: 50px;
+    width: 390px;
+    color: white;
+    padding: 0 25px 150px 25px;
+}
+
+.slider-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.slider-bg1 {
+    background-image: url(images/slider-bg1.png);
+}
+
+.slider-bg2 {
+    background-image:  url(images/slider-bg1.png);
+}
+
+.slider-bg3 {
+    background-image: url(images/slider-bg1.png);
+}
+
+/* welcome */
+
+.welcome {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.welcome h1 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.welcome-item {
+    margin: 40px 0;
+    display: flex;
+    gap: 25px;
+}
+
+.welcome-item p {
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.welcome-item img {
+    height: 250px;
+    border-radius: 50px;
+}
+
+.respect {
+    text-align: right;
+    font-weight: 600;
+}
+
+/* school-info */
+
+.school-info {
+    background-color: #f8f5f2;
+}
+
+.school-info-item {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.school-info-item h1 {
+    font-size: 2.5em;
+    margin-bottom: 60px;
+}
+
+.school-info-item ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-info-item li {
+    color: #f2a900;
+    transition: all .3s ease-in;
+    text-align: center;
+}
+
+.school-info-item li:hover {
+    color: black;
+}
+
+.class-title {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.class-text {
+    border-top: 1px solid #E3E1DE;
+    padding-top: 25px;
+}
